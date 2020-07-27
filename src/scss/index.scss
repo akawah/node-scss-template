@@ -1,0 +1,23 @@
+// default styles
+$color: #fabd67;
+
+body {
+  margin: 0;
+  padding: 60px;
+  background: #eee;
+  font-family: sans-serif;
+  .block{
+    margin: 20px 0;
+    padding: 10px;
+    width: 200px;
+    background: $color;
+  }
+  .autoprefixer-test{
+    display: flex;
+    box-shadow: none;
+  }
+  .grid-cell {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
